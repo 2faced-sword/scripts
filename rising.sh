@@ -1,6 +1,6 @@
 rm -rf .repo/local_manifests; \
 rm -rf {device,vendor,kernel,hardware}/xiaomi; \
-repo init --depth=1 --no-repo-verify -u https://github.com/RisingOS-Revived/android -b fifteen --git-lfs -g default,-mips,-darwin,-notdefault && \
+repo init --depth=1 --no-repo-verify -u https://github.com/RisingOS-Revived/android -b qpr2 --git-lfs -g default,-mips,-darwin,-notdefault && \
 git clone https://github.com/2faced-sword/android_device_xiaomi_apollo -b crdroid device/xiaomi/apollo && \
 git clone https://github.com/2faced-sword/android_vendor_xiaomi_apollo -b main vendor/xiaomi/apollo && \
 git clone https://github.com/2faced-sword/kernel_xiaomi_apollo -b aosp-15 kernel/xiaomi/apollo && \
