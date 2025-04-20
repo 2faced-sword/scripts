@@ -4,7 +4,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/RisingOS-Revived/andr
 git clone https://github.com/2faced-sword/android_device_xiaomi_apollo -b rising device/xiaomi/apollo && \
 git clone https://github.com/2faced-sword/android_vendor_xiaomi_apollo -b main vendor/xiaomi/apollo && \
 git clone https://github.com/2faced-sword/kernel_xiaomi_apollo -b aosp-15 kernel/xiaomi/apollo && \
-git clone https://github.com/crdroidandroid/android_hardware_xiaomi -b 15.0 hardware/xiaomi && \
+git clone https://github.com/2faced-sword/hardware_xiaomi -b fifteen hardware/xiaomi && \
 /opt/crave/resync.sh; \
 rm -rf  hardware/qcom-caf/common; \
 git clone https://github.com/2faced-sword/android_hardware_qcom-caf_common -b lineage-22.2 hardware/qcom-caf/common && \
