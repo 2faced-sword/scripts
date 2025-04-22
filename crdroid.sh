@@ -1,7 +1,7 @@
 rm -rf .repo/local_manifests; \
 rm -rf {device,vendor,kernel,hardware}/xiaomi; \
 repo init --depth=1 --no-repo-verify -u https://github.com/crdroidandroid/android -b 15.0 --git-lfs -g default,-mips,-darwin,-notdefault && \
-git clone https://raw.githubusercontent.com/2faced-sword/build_manifest/refs/heads/crdroid/local_manifest.xml -b crdroid .repo/local_manifests && \
+git clone https://github.com/2faced-sword/build_manifest -b crdroid .repo/local_manifests && \
 /opt/crave/resync.sh && \
 export BUILD_USERNAME=Krishy; \
 export BUILD_HOSTNAME=crave; \
